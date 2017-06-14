@@ -1,10 +1,10 @@
 import os
 import urllib
 
-DOWNLOADS_DIR = '/Users/chrisfischer/Desktop/doc2vec_test/Texts'
+DOWNLOADS_DIR = 'Texts'
 
 # For every line in the file
-for url in open('/Users/chrisfischer/Desktop/doc2vec_test/urls.txt'):
+for url in open('urls.txt'):
     # Split on the rightmost / and take everything on the right side of that
     name = url.rsplit('/', 1)[-1]
 

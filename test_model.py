@@ -9,8 +9,7 @@ def test_similarity(arr, model):
 
 
 def main():
-    #path = "/Users/chrisfischer/Desktop/doc2vec_test/"
-    
+
     model = Doc2Vec.load("doc2vec.model")
 
     test_similarity([("history", "tradition"),

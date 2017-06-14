@@ -29,7 +29,6 @@ class LabeledLineSentence(object):
 def main():
     path = "Texts/"
 
-    #docLabels = []
     docLabels = [f for f in listdir(path) if f.endswith('.txt')]
     data = []
     for docLabel in docLabels:
@@ -49,7 +48,6 @@ def main():
         model.train(it, total_examples=model.corpus_count, epochs=num_epochs)
         model.alpha -= 0.002
         model.min_alpha = model.alpha
-        #model.train(it, total_examples=model.corpus_count, epochs=model.iter)
         print "epoch %i complete." %epoch
     model.save('doc2vec.model')
 
