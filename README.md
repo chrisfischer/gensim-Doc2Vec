@@ -6,4 +6,4 @@ Quick implementation of gensim's Doc2Vec on multiple texts
 Written to analyize bug report data.
 
 ## Classics Model
-Trained on some classic texts and essays found [here](http://www.textfiles.com/etext/) 
+Trained on some classic texts and essays found [here](http://www.textfiles.com/etext/).
