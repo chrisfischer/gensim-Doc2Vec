@@ -1,5 +1,5 @@
 # gensim-Doc2Vec
-Quick implementation of gensim's Doc2Vec on two different corpus.
+Quick implementation of gensim's Doc2Vec on two different corpora.
 
 
 ## Bug Report Model
